@@ -45,7 +45,7 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('./fonts/Roboto-Regular.woff2') format('woff2');
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -53,7 +53,7 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('./fonts/Roboto-Bold.woff2') format('woff2');
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -101,6 +101,11 @@ ul, ol {
 main {
   flex-grow: 1;
   background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #f5f5f5 100%);
+}
+.preload {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
 }
 .container {
   max-width: 1230px;
@@ -202,7 +207,7 @@ main {
   align-items: center;
   border-radius: 10px;
   background-color: var(--calendula-gold---gold-2);
-  background-image: url('./img/introbg.webp');
+  background-image: url('../img/introbg.webp');
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -243,7 +248,7 @@ main {
   font-size: 16px;
   line-height: 1.5;
   outline: none;
-  background: url('./img/search.svg') no-repeat 10px;
+  background: url('../img/search.svg') no-repeat 10px;
   background-size: 18px;
 }
 .search::placeholder {
@@ -306,7 +311,6 @@ a.card:hover, a.card:focus-visible {
   color: var(--gray---gray-7);
 }
 .info__rating {
-  margin-right: 26px;
   display: flex;
   align-items: center;
   gap: 7px;
