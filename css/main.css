@@ -393,8 +393,6 @@ a.card:hover, a.card:focus-visible {
   background-color: var(--gray---gray-1);
   border-radius: 5px;
 }
-.cart {
-}
 .cart__header {
   display: flex;
   justify-content: space-between;
@@ -479,14 +477,10 @@ a.card:hover, a.card:focus-visible {
   color: #40A9FF;
   border-color: #40A9FF;
 }
-.minus {
-}
 .cart-list__count {
   width: 44px;
   display: flex;
   justify-content: center;
-}
-.plus {
 }
 
 @media (max-width: 991px) {
